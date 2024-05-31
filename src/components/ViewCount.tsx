@@ -1,23 +1,25 @@
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 
+
 function ViewCount() {
-  const [count, setCount] = useState<number>(0);
+  const [count, setCount] = useState(0);
 
   useEffect(() => {
-    // Retrieve the visitor count from local storage
-    const storedCount = localStorage.getItem('visitorCount');
+    const storedCount = localStorage.getItem("visitorCount");
+    const initialCount = storedCount ? parseInt(storedCount) : 0;
+    setCount(initialCount);
 
-    // If the visitor count is not in local storage, initialize it to 1
-    if (!storedCount) {
-      localStorage.setItem('visitorCount', '1');
-      setCount(1);
-    } else {
-      // Otherwise, increment the visitor count and update local storage
-      const newCount = parseInt(storedCount) + 1;
-      localStorage.setItem('visitorCount', newCount.toString());
+    const handleVisit = () => {
+      const newCount = initialCount + 1;
+      localStorage.setItem("visitorCount", newCount.toString());
       setCount(newCount);
-    }
+    };
+
+    window.addEventListener("beforeunload", handleVisit);
+    return () => {
+      window.removeEventListener("beforeunload", handleVisit);
+    };
   }, []);
   return (
     <motion.div
