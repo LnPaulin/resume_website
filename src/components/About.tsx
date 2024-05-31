@@ -36,6 +36,7 @@ function About() {
               <span className="px-3 py-1 bg-darkgray rounded-xl">Github</span>
               <span className="px-3 py-1 bg-darkgray rounded-xl">nmap</span>
               <span className="px-3 py-1 bg-darkgray rounded-xl">SIEM</span>
+              <span className="px-3 py-1 bg-darkgray rounded-xl">Docker</span>
             </div>
             <div className="flex w-full justify-center gap-4 flex-wrap mt-8 self-start">
               <span className="text-cerulean text-lg hover:underline duration-300">
@@ -108,15 +109,15 @@ function About() {
         <div className="mt-4 md:mt-0 flex grow flex-col gap-4 font-poppins font-extralight md:w-3/5 text-white/90 text-xl">
           <p>Hey there, I'm Tchio, a motivated IT and cloud Security Specialist with a strong backgroud in technical concepts and customer services.  I am passionate about securing information systems on premises and on the Cloud.   </p>
           <p>
-            My interest in computers <span className="mx-2">🖥️</span> began probably when I first saw one in the computer lab back at highschool.
+            My interest in computers <span className="mx-2">🖥️</span> began probably when I first saw one in the computer lab back at highschool
         
             <img className="w-6 h-6 mx-2 inline-block" src={DoraemonImg} alt="Doraemon joy face" />.
-            Since then, I've been hooked — whether it's reading computer books, sketching laptops,
-            trying out games on a friend's new laptop, or breaking down my system into pieces,
+            Since then, I've been hooked — whether it's reading computer books,
+            trying out new software , or breaking down my system into pieces,
             I've done it all.
           </p>
           <p>
-            As a Security analyst, monitoring network traffic to identify suspicious requsts, training my peers about technics that threat actors can use to compromise systems, prepare and plan on how to respond to incidents and how recover onces the disaster strikes. 
+            As a Security analyst, I enjoy monitoring network traffic to identify suspicious packets, training my peers about technics & tactics that threat actors can use to compromise systems, prepare and plan on how to respond to incidents and how recover onces the disaster strikes. 
             I equally use the services of cloud provides like AWS, GCP and Azure to provision cloud infrastructures in a cost effective and secure environment.
           </p>
           <p>

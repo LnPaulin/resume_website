@@ -60,7 +60,7 @@ function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ type: "spring", duration: 2 }}
           className="md:w-1/2 mt-4 text-gray-500 text-base md:text-xl pb-8 md:pb-16">
-          I'm a <span className="text-cerulean font-semibold">Security Analyst</span> with a passion on securing cloud infrastructures.
+          I'm a <span className="text-cerulean font-semibold">Security Analyst</span> with a passion on securing cloud workloads.
         </motion.p>
         <motion.button
           className="absolute bottom-20 md:bottom-8 2xl:bottom-20 self-center justify-self-stretch flex items-center justify-center bg-cerulean rounded-xl md:rounded-2xl p-2 h-8 md:p-4 md:h-12 hover:bg-[#00579F] hover:scale-105 duration-200 ease-in-out cursor-pointer"
