@@ -18,7 +18,7 @@ export default function Contact() {
           {" "}
         </p>
       </div>
-      <a href="mailto:piyushsingh16@outlook.in" className="w-fit group flex items-center justify-center gap-2 mx-auto mt-8">
+      <a href="mailto:contact@gitcotech.net" className="w-fit group flex items-center justify-center gap-2 mx-auto mt-8">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"
