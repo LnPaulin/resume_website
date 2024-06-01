@@ -88,7 +88,7 @@ function About() {
                 </svg>
               </a>
             
-              <a href="contact@gitcotech.net" target="_blank">
+              <a href="mailto:contact@gitcotech.net" target="_blank">
                 <svg
                   className="w-6 h-6 rounded-sm fill-white/70 hover:fill-cerulean cursor-pointer"
                   viewBox="0 0 232 232"
