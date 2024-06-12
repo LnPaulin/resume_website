@@ -3,6 +3,7 @@ import gsec from "../assets/gsec.png";
 import secplus from "../assets/sec.png";
 import aws from "../assets/saa.png";
 import isc2 from "../assets/cc.png";
+import ai from "../assets/ai.png"
 
 function Certification() {
   return (
@@ -27,15 +28,20 @@ function Certification() {
           certName="AWS Solutions Architech Assosicate"
           certLink="https://www.credly.com/badges/fc644b6a-31a2-40aa-a09b-dfa43a117a18/public_url"
         />
-        <Certificate
-          certSrc={gsec}
-          certName="Google CyberSecurity Certificate"
-          certLink="https://www.credly.com/badges/0b86d34d-41ed-4a43-a3fb-c8da8663a033/public_url"
+         <Certificate
+          certSrc={ai}
+          certName="Azure AI Engineer Associate"
+          certLink="https://learn.microsoft.com/api/credentials/share/en-us/TchioFonkwaPaulin/74CF0E3EB753415D?sharingId=4B9A763214C9C86B"
         />
         <Certificate
           certSrc={isc2}
           certName="ISC2 Certifed in Cybersecurity"
           certLink="https://www.credly.com/badges/18cce0ac-e303-45aa-beca-11d6917052a2/public_url"
+        />
+         <Certificate
+          certSrc={gsec}
+          certName="Google CyberSecurity Certificate"
+          certLink="https://www.credly.com/badges/0b86d34d-41ed-4a43-a3fb-c8da8663a033/public_url"
         />
       </div>
     </div>
