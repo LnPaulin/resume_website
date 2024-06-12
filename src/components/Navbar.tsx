@@ -43,7 +43,7 @@ function Navbar() {
           Contact
         </li>
         <a
-          href="https://drive.google.com/file/d/1t2LSfAtAWV-h-yMqD-HJfgl2QG4Fs_U7/view?usp=sharing"
+          href="https://drive.google.com/file/d/1CDKqDW5DFtn09tzgMWHqL4e4PhVPMqzO/view?usp=sharing"
           target="_blank"
           className="flex items-center md:gap-1 bg-cerulean rounded-xl px-1 md:px-2 h-6 md:h-8 hover:bg-[#00579F] hover:scale-105 duration-200 ease-in-out cursor-pointer">
           <svg
