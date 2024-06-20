@@ -117,7 +117,7 @@ function About() {
             I've done it all.
           </p>
           <p>
-            As a Security analyst, I enjoy monitoring network traffic to identify suspicious packets, training my peers about technics & tactics that threat actors can use to compromise systems, prepare and plan on how to respond to incidents and how recover onces the disaster strikes. 
+            As a Security analyst, I enjoy monitoring network traffic to identify suspicious packets, training my peers about technics & tactics that threat actors can use to compromise systems, prepare and plan on how to respond to incidents and how to recover onces the disaster strikes. 
             I equally use the services of cloud provides like AWS, GCP and Azure to provision cloud infrastructures in a cost effective and secure environment.
           </p>
           <p>
