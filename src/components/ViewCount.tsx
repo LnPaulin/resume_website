@@ -1,25 +1,24 @@
 import { motion } from "framer-motion";
-import { useEffect, useState } from "react";
-
+import { useEffect, useState } from 'react';
 
 function ViewCount() {
   const [count, setCount] = useState(0);
 
   useEffect(() => {
-    const storedCount = localStorage.getItem("visitorCount");
-    const initialCount = storedCount ? parseInt(storedCount) : 0;
+    const storedCount = localStorage.getItem('visitorCount');
+    const initialCount = storedCount ? parseInt(storedCount, 10) : 0;
     setCount(initialCount);
 
     const handleVisit = () => {
       const newCount = initialCount + 1;
-      localStorage.setItem("visitorCount", newCount.toString());
+      localStorage.setItem('visitorCount', newCount.toString());
       setCount(newCount);
     };
 
-    window.addEventListener("beforeunload", handleVisit);
-    return () => {
-      window.removeEventListener("beforeunload", handleVisit);
-    };
+    // Call handleVisit immediately to increment count on mount
+    handleVisit();
+
+    // Cleanup function is not needed in this case
   }, []);
   return (
     <motion.div
