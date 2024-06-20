@@ -3,7 +3,7 @@ import {
   About,
   Hero,
   Navbar,
-  ViewCount,
+  // ViewCount,
   Certifications,
   Projects,
   Contact,
@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="text-white flex flex-col items-center font-inter selection:bg-cerulean selection:text-black">
       <Navbar />
-      <ViewCount />
+      {/* <ViewCount /> */}
       <Hero />
       <About />
       <Projects />
