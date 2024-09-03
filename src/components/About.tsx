@@ -31,8 +31,7 @@ function About() {
               <span className="px-3 py-1 bg-darkgray rounded-xl">Windows Server</span>
               <span className="px-3 py-1 bg-darkgray rounded-xl">Microsoft 365</span>
               <span className="px-3 py-1 bg-darkgray rounded-xl">EDR (LimaCharlie)</span>
-              <span className="px-3 py-1 bg-darkgray rounded-xl">Linux</span>
-              <span className="px-3 py-1 bg-darkgray rounded-xl">Windoes Server</span>              
+              <span className="px-3 py-1 bg-darkgray rounded-xl">Linux</span>                         
               <span className="px-3 py-1 bg-darkgray rounded-xl">Wireshark</span>              
               <span className="px-3 py-1 bg-darkgray rounded-xl">Firewall</span>
               <span className="px-3 py-1 bg-darkgray rounded-xl">Qualys</span>
@@ -124,7 +123,7 @@ function About() {
             I've done it all.
           </p>
           <p>
-            As a Security analyst, I enjoy monitoring network traffic to identify suspicious packets, training my peers about technics & tactics that threat actors can use to compromise systems, prepare and plan on how to respond to incidents and how to recover onces the disaster strikes. 
+            As a Security analyst, I enjoy monitoring network traffic to identify suspicious packets, training my peers about technics & tactics that threat actors can use to compromise systems, prepare and plan on how to respond to incidents and how to recover once the disaster strikes. 
             I equally use the services of cloud provides like AWS, GCP and Azure to provision cloud infrastructures in a cost effective and secure environment.
           </p>
           <p>
