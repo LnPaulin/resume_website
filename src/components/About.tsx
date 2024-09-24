@@ -115,7 +115,7 @@ function About() {
         <div className="mt-4 md:mt-0 flex grow flex-col gap-4 font-poppins font-extralight md:w-3/5 text-white/90 text-xl">
           <p>Hey there, I'm Tchio, a motivated IT and cloud Security Specialist with a strong backgroud in technical concepts and customer services.  I am passionate about securing information systems on premises and on the Cloud.   </p>
           <p>
-            My interest in computers <span className="mx-2">🖥️</span> began probably when I first saw one in the computer lab back at highschool
+            My interest in computers <span className="mx-2">🖥️</span> probably began when I first saw one in the computer lab back at highschool
         
             <img className="w-6 h-6 mx-2 inline-block" src={DoraemonImg} alt="Doraemon joy face" />.
             Since then, I've been hooked — whether it's reading computer books,
