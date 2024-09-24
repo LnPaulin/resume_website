@@ -123,11 +123,12 @@ function About() {
             I've done it all.
           </p>
           <p>
-            As a Security analyst, I enjoy monitoring network traffic to identify suspicious packets, training my peers about technics & tactics that threat actors can use to compromise systems, prepare and plan on how to respond to incidents and how to recover once the disaster strikes. 
-            I equally use the services of cloud provides like AWS, GCP and Azure to provision cloud infrastructures in a cost effective and secure environment.
+            As a Security analyst, I enjoy monitoring network traffic to identify suspicious packets, training my peers about technics & tactics that threat actors 
+            can use to compromise systems, prepare and plan on how to respond to incidents and how to recover once the disaster strikes. 
+            I equally use the services of cloud providers like AWS, GCP and Azure to provision cloud infrastructures in a cost effective and secure environment.
           </p>
           <p>
-            When I'm not in front of a computer screen, you can probably find me running
+            When I'm not in front of a computer screen, you will probably find me running
             in a field, or playing Pro Evolution Soccer with some friends.{" "}
             <span className="text-cerulean font-semibold">Thanks</span> for stopping by my portfolio!
           </p>
