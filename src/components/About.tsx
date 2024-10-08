@@ -113,7 +113,7 @@ function About() {
           </div>
         </div>
         <div className="mt-4 md:mt-0 flex grow flex-col gap-4 font-poppins font-extralight md:w-3/5 text-white/90 text-xl">
-          <p>Hey there, I'm Tchio, a motivated IT and cloud Security Specialist with a strong backgroud in technical concepts and customer services.  
+          <p>Hey there, I'm Paulin, a motivated IT and cloud Security Specialist with a strong backgroud in technical concepts and customer services.  
             I am passionate about securing information systems both on premises and on the Cloud.   </p>
           <p>
             My interest in computers <span className="mx-2">🖥️</span> probably began when I first saw one in the computer lab back at highschool

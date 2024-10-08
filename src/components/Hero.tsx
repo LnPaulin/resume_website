@@ -12,7 +12,7 @@ function Hero() {
           transition={{ type: "spring", duration: 1 }}
           className="font-poppins font-extrabold text-4xl md:text-8xl"
         >
-          Hey, I'm Tchio<span className="text-cerulean">.</span>
+          Hey, I'm Paulin<span className="text-cerulean">.</span>
         </motion.h1>
         <motion.h2
           initial={{ opacity: 0 }}
@@ -53,7 +53,7 @@ function Hero() {
               d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"
             />
           </svg>
-          <span>Markham, CA</span>
+          <span>Greater Toronto Area, CA</span>
         </motion.div>
         <motion.p
           initial={{ opacity: 0, y: 100 }}
