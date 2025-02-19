@@ -2,6 +2,7 @@ import { Project } from "./Project";
 import password from "../assets/projects/passwords.jpg"
 import seim from "../assets/projects/azure-seim.png"
 import gcp from "../assets/projects/gcp.png"
+import pentest from "../assets/projects/pentest.jpg"
 import apprunner from "../assets/projects/apprunner.webp"
 
 function Projects() {
@@ -17,6 +18,14 @@ function Projects() {
         <div className="h-1 grow bg-white/20 self-end ml-4 mb-4"></div>
       </div>
       <div className="pt-10 grid grid-cols-1 md:grid-cols-2 gap-8">
+      <Project
+          githubLink="https://www.youtube.com/watch?v=qGyFN6I6h-c&t=954s"
+          projectName="Blackbox Penetration Testing"
+          projectLink="https://www.youtube.com/watch?v=qGyFN6I6h-c&t=954s"
+          projectSrc={pentest}
+          tools={["nmap", "metasploit", "exploit-db"]}
+          projectShortDesc="Performing blackbox penetration testing with only the target website provided."
+        />
         <Project
           githubLink="https://github.com/LnPaulin/password_gen"
           projectName="PasswordGen"
