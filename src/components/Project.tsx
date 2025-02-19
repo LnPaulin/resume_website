@@ -161,7 +161,7 @@ const ProjectDetails = ({ isOpen, setIsOpen, children, description }: ProjectDet
             </div>
             <div className="relative z-0 h-full p-4 pt-12 md:px-16 lg:px-32"> {/* Add responsive padding */}
               {description ? (
-                <p className="text-offwhite text-xl">{description}</p>
+                <p className="text-offwhite text-xl tracking-wide font-extralight">{description}</p>
               ) : (
                 children
               )}
