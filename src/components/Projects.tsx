@@ -24,8 +24,8 @@ function Projects() {
           projectLink="https://www.youtube.com/watch?v=qGyFN6I6h-c&t=954s"
           projectSrc={pentest}
           tools={["nmap", "metasploit", "exploit-db"]}
-          projectShortDesc="Performing blackbox penetration testing with only the target website provided."
-          projectFullDesc="This project involves performing blackbox penetration testing on a target website. The tools used include nmap, metasploit, and exploit-db. The goal is to identify vulnerabilities and exploit them to gain unauthorized access."
+          projectShortDesc="Performing Blackbox penetration testing on a network with only the target website provided."
+          projectFullDesc="This project involves performing Blackbox penetration testing on a target Network. The tools used include nmap, metasploit, and exploit-db. The goal is to identify vulnerabilities and exploit them to gain unauthorized access to the different hosts in the network."
         />
         <Project
           githubLink="https://github.com/LnPaulin/password_gen"
