@@ -41,6 +41,10 @@ function Projects() {
                   <li>Segment network to isolate critical systems</li>
                 </ul>
               </p>
+              <br></br>
+              <i><h3>Conclusion</h3></i>
+              <br></br>
+              <p>he test revealed critical security gaps, including outdated software and poor credential management. Addressing these issues will significantly reduce the risk of a breach. A detailed report was provided to guide the client’s remediation efforts.</p>
             </>
           }
           
