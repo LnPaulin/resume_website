@@ -14,7 +14,7 @@ interface ProjectProps {
   githubLink: string;
   tools: string[];
   projectShortDesc: string;
-  projectFullDesc: string;
+  projectFullDesc: ReactNode; // Change to ReactNode to support JSX
 }
 
 export function Project({ projectSrc, projectName, projectLink, githubLink, tools, projectShortDesc, projectFullDesc }: ProjectProps) {
@@ -88,7 +88,7 @@ interface ProjectDetailsProps {
   isOpen: boolean;
   setIsOpen: Dispatch<SetStateAction<boolean>>;
   children?: ReactNode;
-  description?: string;
+  description?: ReactNode; // Change to ReactNode to support JSX
 }
 
 const ProjectDetails = ({ isOpen, setIsOpen, children, description }: ProjectDetailsProps) => {
@@ -158,9 +158,9 @@ const ProjectDetails = ({ isOpen, setIsOpen, children, description }: ProjectDet
                 className="h-2 w-14 cursor-grab touch-none rounded-full bg-neutral-700 active:cursor-grabbing"
               ></button>
             </div>
-            <div className="relative z-0 h-full p-4 pt-12 md:px-16 lg:px-32"> {/* Add responsive padding */}
+            <div className="relative z-0 h-full p-4 pt-12 md:px-16 lg:px-32 overflow-y-auto"> {/* Add overflow-y-auto */}
               {description ? (
-                <p className="text-offwhite text-xl tracking-wide font-extralight">{description}</p>
+                <div className="text-offwhite text-xl tracking-wide font-extralight">{description}</div>
               ) : (
                 children
               )}
