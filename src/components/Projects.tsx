@@ -25,7 +25,25 @@ function Projects() {
           projectSrc={pentest}
           tools={["nmap", "metasploit", "exploit-db"]}
           projectShortDesc="Performing Blackbox penetration testing on a network with only the target website provided."
-          projectFullDesc="This project involves performing Blackbox penetration testing on a target Network. The tools used include nmap, metasploit, and exploit-db. The goal is to identify vulnerabilities and exploit them to gain unauthorized access to the different hosts in the network."
+          projectFullDesc={
+            <>
+              <i><h3>Project Summary: Blackbox Penetration Test for Gitcotech</h3></i>
+              <br></br>
+              <p>The process began with initial reconnaissance, where I discovered the website lacked SSL/TLS, exposing it to potential attacks. Using Nmap, I performed a network scan, identifying open ports like Port 80 (HTTP) and Port 3389 (RDP), and determined the website was hosted on a Microsoft IIS server. During the exploitation phase, I found a vulnerable service, BadBlue 2.7, on a host within the same network, which I exploited using Metasploit to gain initial access. I then performed privilege escalation to obtain administrator access, discovering a file (host_info.txt) containing sensitive credentials. Using these credentials, I moved laterally to access the primary server via RDP, gaining full control over the Active Directory domain. Finally, in the post-exploitation phase, I confirmed the server hosted the gcotch.com website and downloaded sensitive files for further analysis.</p>
+              <br></br>
+              <i><h3>Recommendations</h3></i>
+              <br></br>
+              <p>
+                <ul>
+                  <li>Implement SSL/TLS to secure data in transit.</li>
+                  <li>Regularly update software to patch vulnerabilities.</li>
+                  <li>Conduct regular security assessments to identify and mitigate risks.</li>
+                  <li>Segment network to isolate critical systems</li>
+                </ul>
+              </p>
+            </>
+          }
+          
         />
         <Project
           githubLink="https://github.com/LnPaulin/password_gen"
