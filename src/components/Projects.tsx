@@ -2,6 +2,7 @@ import { Project } from "./Project";
 import password from "../assets/projects/passwords.jpg";
 import seim from "../assets/projects/azure-seim.png";
 import gcp from "../assets/projects/gcp.png";
+import pivot from "../assets/projects/pivot.png";
 import pentest from "../assets/projects/pentest.jpg";
 import apprunner from "../assets/projects/apprunner.webp";
 
@@ -44,11 +45,43 @@ function Projects() {
               <br></br>
               <i><h3>Conclusion</h3></i>
               <br></br>
-              <p>hTe test revealed critical security gaps, including outdated software and poor credential management. Addressing these issues will significantly reduce the risk of a breach. A detailed report was provided to guide the client’s remediation efforts.</p>
+              <p>The test revealed critical security gaps, including outdated software and poor credential management. Addressing these issues will significantly reduce the risk of a breach. A detailed report was provided to guide the client’s remediation efforts.</p>
             </>
           }
           
         />
+
+        <Project
+          githubLink="https://youtu.be/teWgDTCshdQ?si=gr7CtUcE5Aj2QtZk"
+          projectName="Penetration Testing > Pivoting"
+          projectLink="https://youtu.be/teWgDTCshdQ?si=gr7CtUcE5Aj2QtZk"
+          projectSrc={pivot}
+          tools={["nmap", "metasploit", "Deepseek"]}
+          projectShortDesc="Pivoting in a Network from a Bastion host and compromizing a firewall protected host."
+          projectFullDesc={
+            <>
+              <i><h3>Project Summary: Pivoting in a Network</h3></i>
+              <br></br>
+              <p>In this project, I demonstrates how to pivot through a compromised machine (10.0.0.25) to access and analyze a target machine (10.0.0.206) in a virtual lab environment. Using Metasploit, I set up a pivot with the autoroute command on a meterpreter session, scanned the target for open ports, and identified the service running on port 80 by curling the http header information. </p>
+              <br></br>
+              <p> The goal is to showcase practical techniques in ethical hacking, such as network pivoting and service detection, while deepening my understanding of cybersecurity concepts through research and hands-on practice.</p>
+              <i><h3>Recommendations</h3></i>
+              <br></br>
+              <p>
+                <ul>
+                  <li>Implement SSL/TLS to secure data in transit.</li>
+                  <li>Regularly update software to patch vulnerabilities.</li>
+                  <li>Conduct regular security assessments to identify and mitigate risks.</li>
+                  <li>Segment network to isolate critical systems</li>
+                </ul>
+              </p>
+            
+            </>
+          }
+          
+        />
+
+
         <Project
           githubLink="https://github.com/LnPaulin/password_gen"
           projectName="PasswordGen"
