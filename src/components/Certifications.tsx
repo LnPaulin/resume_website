@@ -4,6 +4,7 @@ import secplus from "../assets/sec.png";
 import aws from "../assets/saa.png";
 import isc2 from "../assets/cc.png";
 import ai from "../assets/ai.png"
+import ejpt from "../assets/ejpt.png"
 
 function Certification() {
   return (
@@ -18,6 +19,11 @@ function Certification() {
         </h2>
       </div>
       <div className="pt-10 grid grid-cols-1 md:grid-cols-2 gap-8">
+      <Certificate
+          certSrc={ejpt}
+          certName="Junior Penetration Tester (eJPT)"
+          certLink="https://certs.ine.com/11811ce4-624e-4750-8f5a-cb2d6786f1aa#acc.pPj1mzxE"
+        />
       <Certificate
           certSrc={secplus}
           certName="CompTIA Security+"
