@@ -23,9 +23,9 @@ function About() {
             <div className="mt-4 flex justify-center flex-wrap gap-2 text-lg">
               <span className="px-3 py-1 bg-darkgray rounded-xl">Django</span>
               <span className="px-3 py-1 bg-darkgray rounded-xl">AWS</span>
-              <span className="px-3 py-1 bg-darkgray rounded-xl">GCP</span>
-              <span className="px-3 py-1 bg-darkgray rounded-xl">Azure</span>
-              <span className="px-3 py-1 bg-darkgray rounded-xl">VMware</span>
+              <span className="px-3 py-1 bg-darkgray rounded-xl">Burb Suite</span>
+              <span className="px-3 py-1 bg-darkgray rounded-xl">Metasploit</span>
+              <span className="px-3 py-1 bg-darkgray rounded-xl">Nmap</span>
               <span className="px-3 py-1 bg-darkgray rounded-xl">Azure AI</span>
               <span className="px-3 py-1 bg-darkgray rounded-xl">Terraform</span>
               <span className="px-3 py-1 bg-darkgray rounded-xl">Windows Server</span>
@@ -42,14 +42,14 @@ function About() {
               <span className="px-3 py-1 bg-darkgray rounded-xl">Github</span>
               <span className="px-3 py-1 bg-darkgray rounded-xl">nmap</span>
               <span className="px-3 py-1 bg-darkgray rounded-xl">SIEM</span>
-              <span className="px-3 py-1 bg-darkgray rounded-xl">Docker</span>
+              <span className="px-3 py-1 bg-darkgray rounded-xl">OpenVAS</span>
             </div>
             <div className="flex w-full justify-center gap-4 flex-wrap mt-8 self-start">
               <span className="text-cerulean text-lg hover:underline duration-300">
                 My Socials -&#62;
               </span>
               <a
-                href="https://www.linkedin.com/in/tchio-fonkwa-paulin"
+                href="https://www.linkedin.com/in/paulin-tf/"
                 target="_blank"
               >
                 <svg
